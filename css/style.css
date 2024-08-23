@@ -925,9 +925,9 @@ h6 {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.arlo_tm_about .skillbox:before {
+/* .arlo_tm_about .skillbox:before {
     background-color: transparent;
-}
+} */
 
 .arlo_tm_about .skillbox .wrapper {
     width: 100%;
