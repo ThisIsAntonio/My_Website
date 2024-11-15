@@ -8,6 +8,7 @@
     <meta name="author" content="Marcos Astudillo" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <title>Marcos Astudillo</title>
+    <link rel="icon" href="img/logo/logo.png" type="favicon">
 
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Syne:wght@400;500;600;700;800&amp;display=swap"
@@ -67,13 +68,15 @@
                             <li><a></a></li>
                             <!-- Traduccion Button -->
                             <li class="language-selector">
-                                <a href="javascript:void(0);" id="language-toggle" onclick="toggleLanguage()">en /
-                                    es</a>
+                                <button id="language-toggle" onclick="toggleLanguage(event)">en / es</button>
                             </li>
                         </ul>
                     </div>
                     <div class="social">
                         <ul>
+                            <li>
+                                <a href="https://wa.me/16135014176" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                            </li>
                             <li>
                                 <a href="https://www.youtube.com/@ThisIsAntonio86" target="_blank"><i
                                         class="icon-youtube-squared"></i></a>
@@ -120,7 +123,7 @@
                         <li><a></a></li>
                         <!-- Traduction Button -->
                         <li class="language-selector">
-                            <a href="javascript:void(0);" id="language-toggle" onclick="toggleLanguage()">En / Es</a>
+                            <button id="language-toggle" onclick="toggleLanguage(event)">en / es</button>
                         </li>
                     </ul>
                 </div>
@@ -133,6 +136,9 @@
                 </div>
                 <div class="social">
                     <ul>
+                        <li>
+                                <a href="https://wa.me/16135014176" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        </li>
                         <li>
                             <a href="https://www.youtube.com/@ThisIsAntonio86" target="_blank"><i
                                     class="icon-youtube-squared"></i></a>
@@ -177,21 +183,9 @@
                         <div class="arlo_tm_about">
                             <div class="biography">
                                 <div class="arlo_tm_title">
-                                    <h3 data-translate="aboutMe">About Me</h3>
+                                    <h3 data-translate="aboutMe"></h3>
                                 </div>
-                                <div class="text">
-                                    <p data-translate="biography">
-                                        Software Developer / Programmer, skilled in Java, SQL, and
-                                        Python with a solid foundation in both hardware and
-                                        software troubleshooting. Adept at developing and refining
-                                        applications, particularly in augmented reality and data
-                                        visualization, using a diverse toolkit that includes
-                                        Django, Flask, and Tkinter. Proven track record of
-                                        enhancing software library management and performance
-                                        tuning across multiple projects. Brings a meticulous
-                                        approach to software design and user experience
-                                        optimization
-                                    </p>
+                                <div class="text" data-translate="biography">
                                 </div>
                                 <div class="details">
                                     <ul>
@@ -203,10 +197,14 @@
                                             <span data-translate="cityField">City:</span>
                                             <span data-translate="cityValue">Ottawa, ON, Canada</span>
                                         </li>
-                                        <li>
+                                    </ul>
+                                    <ul class="title-container">
+                                        <li class="title-item">
                                             <span data-translate="titleField">Title:</span>
-                                            <span>Computer Engineering Technology - Computing Science</span>
+                                            <span class="single-line">Computer Engineering Technology - Computing Science</span>
                                         </li>
+                                    </ul>
+                                    <ul>
                                         <li>
                                             <span data-translate="phoneField">Phone:</span>
                                             <span><a class="line_effect" href="#">+1 (613) 501 4176</a></span>
@@ -214,20 +212,28 @@
                                         <li>
                                             <span data-translate="emailField">Email:</span>
                                             <span><a class="line_effect"
-                                                    href="mailto:marcos.astudillo.c@hotmail.com">marcos.astudillo.c@hotmail.com</a></span>
+                                                    href="mailto:m.astudillo1986@gmail.com">m.astudillo1986@gmail.com</a></span>
                                         </li>
                                         <li>
                                             <span data-translate="websiteField">Website:</span>
-                                            <span><a class="line_effect" href="#">www.marcosastudillo.com</a></span>
+                                            <span><a class="line_effect" href="https://www.marcosastudillo.com">www.marcosastudillo.com</a></span>
                                         </li>
                                         <li>
                                             <span data-translate="freelanceField">Freelance:</span>
                                             <span data-translate="freelanceValue">Available</span>
                                         </li>
+                                        <li>
+                                            <span data-translate="githubField">GitHub:</span>
+                                            <span><a class="line_effect" href="https://github.com/ThisIsAntonio">Marcos's GitHub</a></span>
+                                        </li>
+                                        <li>
+                                            <span data-translate="availabilityField">Availability:</span>
+                                            <span data-translate="availabilityValue">Full Time</span>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div class="arlo_tm_button">
-                                    <a href="files/english/MARCOS ASTUDILLO.docx" downlaod id="downloadCV">
+                                    <a href="files/english/Marcos_Astudillo.pdf" downlaod id="downloadCV">
                                         <span class="back" data-translate="downloadCV">Download CV</span>
                                         <span class="front" data-translate="downloadCV">Download CV</span>
                                     </a>
@@ -592,7 +598,7 @@
                                         </div>
                                         <div class="arlo_progress">
                                             <span><span class="label">English</span><span class="number">
-                                                    70%</span></span>
+                                                    90%</span></span>
                                             <div class="progress_inner" data-value="70" data-color="#999">
                                                 <div class="background">
                                                     <div class="bar">
@@ -640,6 +646,8 @@
                                                                     Computer Engineering Technology - Computing
                                                                     Science
                                                                 </h3>
+                                                                <span data-translate="graduatedWithHonors">Graduated with honors</span>
+                                                                <br/>
                                                                 <span>Algonquin College, Canada</span>
                                                             </div>
                                                             <div class="date">
@@ -662,7 +670,7 @@
                                                     <li>
                                                         <div class="list_inner">
                                                             <div class="subject">
-                                                                <h3 data-translate="geomaticEngineer">Geomatics
+                                                                <h3 data-translate="geomaticEngineer">Surveying
                                                                     Engineering</h3>
                                                                 <span>Universidad Tecnologica de Chile INACAP,
                                                                     Chile</span>
@@ -704,20 +712,10 @@
                                                                 <h3 data-translate="itConsultant">IT Consultant</h3>
                                                                 <span>ConIngenio.cl, San Bernardo, Chile</span>
                                                             </div>
-                                                            <div class="description">
-                                                                <p data-translate="itConsultantDescription">
-                                                                    Successfully identified client requirements to
-                                                                    tailor IT solutions efficiently, maintaining budget
-                                                                    constraints under $5000. Led software library
-                                                                    upgrades and performance tuning initiatives,
-                                                                    boosting system reliability and efficiency. Focused
-                                                                    on quality assurance and technical support,
-                                                                    significantly reducing downtime and enhancing user
-                                                                    satisfaction.
-                                                                </p>
-                                                            </div>
+                                                            <!-- Contenedor para la descripción -->
+                                                            <div data-translate="itConsultantDescription"></div>
                                                             <div class="date">
-                                                                <span>12/2021 – 08/2022</span>
+                                                                <span>12/2021 – 09/2024</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -726,70 +724,13 @@
                                                     <div class="list_inner">
                                                         <div class="top_row">
                                                             <div class="subject">
-                                                                <h3 data-translate="juniorProgrammer">Junior Programmer
-                                                                </h3>
+                                                                <h3 data-translate="juniorProgrammer">Junior Programmer</h3>
                                                                 <span>Object Profile, San Bernardo, Chile</span>
                                                             </div>
-                                                            <div class="description">
-                                                                <p data-translate="juniorProgrammerDescription">
-                                                                    Developed and refined AFrame export libraries using
-                                                                    Smalltalk, significantly enhancing AR applications
-                                                                    and data handling. Integrated Roassal3Export
-                                                                    libraries with web technologies, optimizing user
-                                                                    interactions with graphical interfaces to improve
-                                                                    UI/UX design and user engagement.
-                                                                </p>
-                                                            </div>
+                                                            <!-- Contenedor para la descripción -->
+                                                            <div data-translate="juniorProgrammerDescription"></div>
                                                             <div class="date">
-                                                                <span>02/2020 – 02/2021</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list_inner">
-                                                        <div class="top_row">
-                                                            <div class="subject">
-                                                                <h3 data-translate="internship">Junior Programmer
-                                                                    (Internship)</h3>
-                                                                <span>Object Profile, San Bernardo, Chile</span>
-                                                            </div>
-                                                            <div class="description">
-                                                                <p data-translate="internshipDescription">
-                                                                    Focused on enhancing libraries for AR content
-                                                                    exportation, improving tools for visualization and
-                                                                    interactive data displays. Created analytical
-                                                                    control panels and conducted programming studies
-                                                                    that integrated Smalltalk with web technologies,
-                                                                    enhancing the tool's data analysis capabilities.
-                                                                </p>
-                                                            </div>
-                                                            <div class="date">
-                                                                <span>09/2020 – 12/2020</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list_inner">
-                                                        <div class="top_row">
-                                                            <div class="subject">
-                                                                <h3 data-translate="itMaintainer">IT Equipment
-                                                                    Maintainer</h3>
-                                                                <span>Carolina Alejandra Silva Peñaloza, San Bernardo,
-                                                                    Chile</span>
-                                                            </div>
-                                                            <div class="description">
-                                                                <p data-translate="itMaintainerDescription">
-                                                                    In a short-term engagement, evaluated, updated, and
-                                                                    repaired IT equipment, focusing on maximizing system
-                                                                    performance and reliability. Ensured smooth
-                                                                    operations and sustained system functionality during
-                                                                    the contract period.
-                                                                </p>
-                                                            </div>
-                                                            <div class="date">
-                                                                <span>07/2021</span>
+                                                                <span>09/2020 – 02/2021</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -882,7 +823,6 @@
         </div>
     </div>
 
-    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/contact.form.js"></script>
@@ -899,7 +839,26 @@
     <script>
         let currentLanguage = 'en';
 
+    //     function setLanguage(lang) {
+    //     document.querySelectorAll("[data-translate]").forEach(function (element) {
+    //         const key = element.getAttribute("data-translate");
+    //         const translation = translations[lang][key];
+
+    //         if (Array.isArray(translation)) {
+    //             console.log(`Rendering list for key: ${key}`);
+    //             element.innerHTML = `<ul>${translation.map(item => `<li>${item}</li>`).join('')}</ul>`;
+    //         } else if (translation) {
+    //             console.log(`Rendering text for key: ${key}`);
+    //             element.textContent = translation;
+    //         } else {
+    //             console.warn(`Translation missing for key: ${key}`);
+    //         }
+    //     });
+    // }
+
+
         function toggleLanguage() {
+            event.preventDefault();
             currentLanguage = currentLanguage === 'en' ? 'es' : 'en';
             setLanguage(currentLanguage);
             document.getElementById('language-toggle').textContent = currentLanguage === 'en' ? 'en / es' : 'es / en';
@@ -909,9 +868,9 @@
         function updateDownloadLink() {
             const downloadLink = document.getElementById('downloadCV');
             if (currentLanguage === 'en') {
-                downloadLink.href = 'files/english/MARCOS ASTUDILLO.docx';
+                downloadLink.href = 'files/english/Marcos_Astudillo.pdf';
             } else {
-                downloadLink.href = 'files/spanish/MARCOS ASTUDILLO.docx';
+                downloadLink.href = 'files/spanish/Marcos_Astudillo.pdf';
             }
         }
 

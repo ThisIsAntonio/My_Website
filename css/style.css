@@ -138,6 +138,36 @@ h6 {
     clear: both;
 }
 
+.title-item {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    flex-wrap: nowrap;
+}
+
+.title-container .single-line {
+    white-space: nowrap;
+    overflow: visible;
+    text-overflow: unset;
+    display: inline;
+    vertical-align: middle;
+}
+
+
+.details ul.title-container {
+    display: flex;
+    align-items: center;
+}
+
+#language-toggle {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: inherit;
+    text-decoration: underline;
+}
+
 #preloader {
     position: fixed;
     left: 0;
@@ -1526,10 +1556,6 @@ h6 {
     margin: 0;
 }
 
-.arlo_tm_contact input[type="number"] {
-    -moz-appearance: textfield;
-}
-
 .error_box {
     width: 100%;
     background-color: #fce3e3;
@@ -2179,5 +2205,10 @@ canvas {
     .arlo_tm_intro .features_wrapper ul li {
         width: 100%;
         padding-left: 0;
+    }
+    
+    .title-container .single-line {
+        max-width: 100%;
+        font-size: 0.9em;
     }
 }

@@ -17,9 +17,10 @@ const translations = {
         allRightsReserved: "All rights are reserved",
         computingEngineer: "Computing Engineer Technology - Computing Science",
         computerProgrammer: "Computer Programmer Analyst",
-        geomaticEngineer: "Geomatic Engineer",
+        geomaticEngineer: "Surveying Engineer",
         aboutMe: "About Me",
-        biography: `Software Developer / Programmer, skilled in Java, SQL, and Python with a solid foundation in both hardware and software troubleshooting. Adept at developing and refining applications, particularly in augmented reality and data visualization, using a diverse toolkit that includes Django, Flask, and Tkinter. Proven track record of enhancing software library management and performance tuning across multiple projects. Brings a meticulous approach to software design and user experience optimization.`,
+        biography:
+            "Software Developer / Programmer, skilled in Java, SQL, Python, and others programming languages with a solid foundation in both hardware and software troubleshooting. Adept at developing and refining applications, specializing in full-stack development and software engineering with a strong proficiency in relational and NoSQL databases. Brings a meticulous approach to software design and user experience, with a proven record in developing and maintaining robust, efficient applications. Known for enhancing database management, optimizing performance, and delivering scalable, user-centered solutions through collaboration and technical expertise.",
         nameField: "Name:",
         cityField: "City:",
         cityValue: "Ottawa, ON, Canada",
@@ -29,21 +30,41 @@ const translations = {
         websiteField: "Website:",
         freelanceField: "Freelance:",
         freelanceValue: "Available",
+        availabilityField: "Availability:",
         knowledge: "Knowledge",
         technicalSkills: "Technical Skills",
         languages: "Language Skills",
         tools: "Tools",
         educationalExperience: "Educational Experience",
+        graduatedWithHonors: "Graduated with Honors",
         workingExperience: "Working Experience",
-        itConsultant: "IT Consultant",
+        itConsultant: "Full Stack Developer",
         juniorProgrammer: "Junior Programmer",
         internship: "Junior Programmer (Internship)",
-        itMaintainer: "IT Equipment Maintainer",
-        successMessage: "Your message has been sent. We will contact you as soon as possible.",
+        successMessage:
+            "Your message has been sent. We will contact you as soon as possible.",
         sendMessage: "Send Message",
-        itConsultantDescription: "Successfully identified client requirements to tailor IT solutions efficiently, maintaining budget constraints under $5000. Led software library upgrades and performance tuning initiatives, boosting system reliability and efficiency. Focused on quality assurance and technical support, significantly reducing downtime and enhancing user satisfaction.",
-        juniorProgrammerDescription: "Developed and refined AFrame export libraries using Smalltalk, significantly enhancing AR applications and data handling. Integrated Roassal3Export libraries with web technologies, optimizing user interactions with graphical interfaces to improve UI/UX design and user engagement.",
-        internshipDescription: "Focused on enhancing libraries for AR content exportation, improving tools for visualization and interactive data displays. Created analytical control panels and conducted programming studies that integrated Smalltalk with web technologies, enhancing the tool's data analysis capabilities.",
+        itConsultantDescription: [
+            "Collaborated with product managers to design and develop cutting-edge applications.",
+            "Led the design and deployment of a customer management system, integrating user feedback mechanisms to gather insights for ongoing development.",
+            "Implemented back-end web applications, focusing on coding, unit testing, and integration to support scalable and secure software solutions.",
+            "Authored and maintained detailed technical documentation, including code comments and user manuals, to support future reference.",
+            "Troubleshot and resolved complex hardware and software issues, leading to improvements in system functionality and user experience.",
+            "Identified requirements to tailor IT solutions effectively, keeping all project budgets under the $5,000 mark.",
+            "Provided critical maintenance and technical support for IT systems, reducing downtime.",
+            "Collaborated with Quality Assurance engineers to ensure comprehensive testing coverage, significantly reducing post-release bugs.",
+        ],
+        juniorProgrammerDescription: [
+            "Developed and refined AFrame export libraries utilizing Smalltalk, leading to substantial improvements in AR applications and data handling.",
+            "Enhanced and optimized libraries for exporting AR content, improving visualization tools and interactive data displays in augmented reality settings.",
+            "Created and deployed analytical control panels and reports tailored to specific requirements.",
+            "Tailored Roassal3Export libraries to integrate with web technologies like HTML, JSON, and JavaScript.",
+            "Analyzed user interactions with graphical interfaces to optimize UI/UX designs.",
+            "Conducted detailed programming studies using Smalltalk integrated with web technologies, increasing the accuracy and usability of data analysis tools",
+            "Managed updates to software systems, ensuring alignment with the latest tech standards.",
+        ],
+        internshipDescription:
+            "Focused on enhancing libraries for AR content exportation, improving tools for visualization and interactive data displays. Created analytical control panels and conducted programming studies that integrated Smalltalk with web technologies, enhancing the tool's data analysis capabilities.",
         messageField: "Message",
         captchaPlaceholder: "Please Enter Code *",
     },
@@ -63,11 +84,13 @@ const translations = {
         copyright: "Copyright &copy; 2024",
         by: "por",
         allRightsReserved: "Todos los derechos reservados",
-        computingEngineer: "Tecnología en Ingeniería Informática - Ciencias Computacionales",
+        computingEngineer:
+            "Tecnología en Ingeniería Informática - Ciencias Computacionales",
         computerProgrammer: "Analista Programador Computacional",
         geomaticEngineer: "Ingeniero Geomensor",
         aboutMe: "Sobre mí",
-        biography: `Desarrollador de Software con experiencia en Java, SQL y Python, y un sólido conocimiento tanto en hardware como en software. Experto en el desarrollo y refinamiento de aplicaciones, especialmente en realidad aumentada y visualización de datos, utilizando una amplia gama de herramientas que incluyen Django, Flask y Tkinter. Enfocado en mejorar la gestión de bibliotecas de software y en optimizar el rendimiento en múltiples proyectos, aportando un enfoque meticuloso al diseño de software y a la optimización de la experiencia del usuario.`,
+        biography:
+            "Desarrollador de Software / Programador con experiencia en Java, SQL, Python y otros lenguajes de programación, con una sólida base en resolución de problemas de hardware y software. Experto en el desarrollo y mejora de aplicaciones, especializado en desarrollo full-stack e ingeniería de software, con un sólido dominio de bases de datos relacionales y NoSQL. Aplica un enfoque meticuloso al diseño de software y la experiencia del usuario, con un historial probado en el desarrollo y mantenimiento de aplicaciones robustas y eficientes. Reconocido por optimizar la gestión de bases de datos, mejorar el rendimiento y entregar soluciones escalables centradas en el usuario mediante colaboración y experiencia técnica.",
         nameField: "Nombre:",
         cityField: "Ciudad:",
         cityValue: "Ottawa, ON, Canadá",
@@ -77,34 +100,75 @@ const translations = {
         websiteField: "Sitio web:",
         freelanceField: "Freelance:",
         freelanceValue: "Disponible",
+        availabilityField: "Disponibilidad:",
         knowledge: "Conocimientos",
         technicalSkills: "Habilidades Técnicas",
         languages: "Habilidades en Idiomas",
         tools: "Herramientas",
         educationalExperience: "Experiencia Educativa",
+        graduatedWithHonors: "Graduado con Honores",
         workingExperience: "Experiencia Laboral",
-        itConsultant: "Consultor IT",
+        itConsultant: "Full Stack Developer",
         juniorProgrammer: "Programador Junior",
         internship: "Programador Junior (Pasantía)",
-        itMaintainer: "Mantenedor de Equipos IT",
-        successMessage: "Tu mensaje ha sido enviado. Nos pondremos en contacto contigo lo antes posible.",
+        successMessage:
+            "Tu mensaje ha sido enviado. Nos pondremos en contacto contigo lo antes posible.",
         sendMessage: "Enviar mensaje",
-        itConsultantDescription: "Identificó con éxito los requisitos del cliente para adaptar soluciones de TI de manera eficiente, manteniendo las restricciones presupuestarias por debajo de $5000. Lideró la actualización de bibliotecas de software e iniciativas de optimización del rendimiento, mejorando la confiabilidad y eficiencia del sistema. Se centró en el aseguramiento de la calidad y el soporte técnico, reduciendo significativamente el tiempo de inactividad y mejorando la satisfacción del usuario.",
-        juniorProgrammerDescription: "Desarrolló y refinó bibliotecas de exportación AFrame utilizando Smalltalk, mejorando significativamente las aplicaciones de AR y el manejo de datos. Integró las bibliotecas Roassal3Export con tecnologías web, optimizando las interacciones de los usuarios con interfaces gráficas para mejorar el diseño de UI/UX y la participación del usuario.",
-        internshipDescription: "Se centró en mejorar las bibliotecas para la exportación de contenido de AR, mejorando las herramientas para la visualización y la visualización interactiva de datos. Creó paneles de control analíticos y realizó estudios de programación que integraron Smalltalk con tecnologías web, mejorando las capacidades de análisis de datos de la herramienta.",
-        itMaintainerDescription: "En un compromiso a corto plazo, evaluó, actualizó y reparó equipos de IT, centrándose en maximizar el rendimiento y la confiabilidad del sistema. Aseguró un funcionamiento fluido y mantuvo la funcionalidad del sistema durante el período del contrato.",
+        itConsultantDescription: [
+            "Colaboré con gerentes de producto para diseñar y desarrollar aplicaciones innovadoras.",
+            "Lideré el diseño y la implementación de un sistema de gestión de clientes, integrando mecanismos de retroalimentación de usuarios para recopilar información para el desarrollo continuo.",
+            "Implementé aplicaciones web en el backend, centrándome en la codificación, pruebas unitarias e integración para apoyar soluciones de software escalables y seguras.",
+            "Redacté y mantuve documentación técnica detallada, incluyendo comentarios en el código y manuales de usuario para referencia futura.",
+            "Diagnostiqué y resolví problemas complejos de hardware y software, mejorando la funcionalidad del sistema y la experiencia del usuario.",
+            "Identifiqué requisitos para personalizar soluciones de TI, manteniendo todos los proyectos dentro de un presupuesto inferior a $5,000.",
+            "Proporcioné mantenimiento y soporte técnico crítico para sistemas de TI, reduciendo el tiempo de inactividad.",
+            "Colaboré con ingenieros de aseguramiento de calidad para garantizar una cobertura completa de pruebas, reduciendo significativamente los errores posteriores al lanzamiento.",
+        ],
+        juniorProgrammerDescription: [
+            "Desarrollé y mejoré bibliotecas de exportación AFrame utilizando Smalltalk, logrando mejoras sustanciales en aplicaciones AR y manejo de datos.",
+            "Optimicé bibliotecas para la exportación de contenido AR, mejorando herramientas de visualización e interactividad en configuraciones de realidad aumentada.",
+            "Creé e implementé paneles de control analíticos e informes personalizados según requisitos específicos.",
+            "Personalicé bibliotecas Roassal3Export para integrarlas con tecnologías web como HTML, JSON y JavaScript.",
+            "Analicé interacciones de usuarios con interfaces gráficas para optimizar los diseños de UI/UX.",
+            "Realicé estudios detallados de programación utilizando Smalltalk integrado con tecnologías web, mejorando la precisión y usabilidad de las herramientas de análisis de datos.",
+            "Gestioné actualizaciones de sistemas de software, asegurando alineación con los estándares tecnológicos más recientes."
+        ],
         messageField: "Mensaje",
         captchaPlaceholder: "Por favor ingrese el código *",
-    }
+    },
 };
 
 // Function to change the language
+// function setLanguage(lang) {
+//     document.querySelectorAll("[data-translate]").forEach(function(element) {
+//         const key = element.getAttribute("data-translate");
+//         element.textContent = translations[lang][key];
+//     });
+// }
+
 function setLanguage(lang) {
-    document.querySelectorAll("[data-translate]").forEach(function(element) {
+    document.querySelectorAll("[data-translate]").forEach(function (element) {
         const key = element.getAttribute("data-translate");
-        element.textContent = translations[lang][key];
+        const translation = translations[lang][key];
+        // console.log('chequeando translation: ' + translation)
+        if (!translation) {
+            // console.warn(`Translation missing for key: ${key}`);
+        return;
+        }
+
+        if (Array.isArray(translation)) {
+            // console.log(`Rendering list for key: ${key}`);
+            element.innerHTML = `<ul>${translation
+                .map((item) => `<li> •	${item}</li>`)
+                .join("")}</ul>`;
+        } else {
+            // console.log(`Rendering text for key: ${key}`);
+            element.textContent = translation;
+        }
     });
 }
+
+
 
 // Load the default language
 setLanguage('en');
